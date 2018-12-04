@@ -26,9 +26,22 @@
     </div>
     <div class="toggle"><div class="icon"></div></div>
   </div>
-     <div class="bg">
-     </div>
-</div>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+
+      <!-- 如果需要导航按钮 -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+
+    </div>
 </template>
 
 <script>
@@ -104,33 +117,35 @@
         height 100%
         ul
           width 14.3rem
-          clearFix()
           li
             width 0.88rem
             height 0.6rem
             float left
             padding 0.21rem
-            line-height 0.8rem
-          .toggle
-            position absolute
+            line-height 0.6rem
+            text-align center
+
+
+         .toggle
             height 0.8rem
             width 0.6rem
             .icon
               width 0.4rem
               height 0.4rem
-              margin-bottom 0rem
-              margin-right 0rem
+              margin-bottom 0
+              margin-right 0
               background-image url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/arrow-down-3-a6045aadfd.png")
               background-position center center
               background-size cover
 
 
-    /*.bg*/
+    .bg
+      background-image url("http://yanxuan.nosdn.127.net/d6414ff4f5acb49911d613a98490c869.jpg?quality=85&thumbnail=750x0&imageView")
+      height 4.93rem
+      background-position center center
+      background-size cover
+      margin-top 0.80rem
 
-      /*background-image url("http://yanxuan.nosdn.127.net/d6414ff4f5acb49911d613a98490c869.jpg?quality=85&thumbnail=750x0&imageView")*/
-      /*height 4.93rem*/
-      /*background-position center center*/
-      /*background-size cover*/
 
 
 

@@ -1,36 +1,36 @@
 <template>
-  <footer class="footer_guide border-1px">
-    <a href="javascript:;" class="guide_item" :class="{on:$route.path==='/home'}" @click="goTO('/home')">
-      <span class="item_icon">
-        <i class="iconfont icon-waimai"></i>
-      </span>
-      <span>首页</span>
-    </a>
-    <a href="javascript:;" class="guide_item" :class="{on:$route.path==='/classify'}" @click="goTO('/classify')" >
-      <span class="item_icon">
-        <i class="iconfont icon-search"></i>
-      </span>
-      <span>分类</span>
-    </a>
-    <a href="javascript:;" class="guide_item" :class="{on:$route.path==='/know'}" @click="goTO('./know')">
-      <span class="item_icon">
-        <i class="iconfont icon-dingdan"></i>
-      </span>
-      <span>认识</span>
-    </a>
-    <a href="javascript:;" class="guide_item" :class="{on:$route.path==='/shopping'} " @click="goTO('./shopping')" >
-      <span class="item_icon">
-        <i class="iconfont icon-geren"></i>
-      </span>
-      <span>购物车</span>
-    </a>
-    <a href="javascript:;" class="guide_item" :class="{on:$route.path==='/login'} " @click="goTO('./login')" >
-      <span class="item_icon">
-        <i class="iconfont icon-geren"></i>
-      </span>
-      <span>个人登录</span>
-    </a>
-  </footer>
+  <!--<footer class="footer_guide border-1px">-->
+    <!--<a href="javascript:;" class="guide_item" :class="{on:$route.path==='/home'}" @click="goTO('/home')">-->
+      <!--<span class="item_icon">-->
+        <!--<i class="iconfont icon-waimai"></i>-->
+      <!--</span>-->
+      <!--<span>首页</span>-->
+    <!--</a>-->
+    <!--<a href="javascript:;" class="guide_item" :class="{on:$route.path==='/classify'}" @click="goTO('/classify')" >-->
+      <!--<span class="item_icon">-->
+        <!--<i class="iconfont icon-search"></i>-->
+      <!--</span>-->
+      <!--<span>分类</span>-->
+    <!--</a>-->
+    <!--<a href="javascript:;" class="guide_item" :class="{on:$route.path==='/know'}" @click="goTO('./know')">-->
+      <!--<span class="item_icon">-->
+        <!--<i class="iconfont icon-dingdan"></i>-->
+      <!--</span>-->
+      <!--<span>认识</span>-->
+    <!--</a>-->
+    <!--<a href="javascript:;" class="guide_item" :class="{on:$route.path==='/shopping'} " @click="goTO('./shopping')" >-->
+      <!--<span class="item_icon">-->
+        <!--<i class="iconfont icon-geren"></i>-->
+      <!--</span>-->
+      <!--<span>购物车</span>-->
+    <!--</a>-->
+    <!--<a href="javascript:;" class="guide_item" :class="{on:$route.path==='/login'} " @click="goTO('./login')" >-->
+      <!--<span class="item_icon">-->
+        <!--<i class="iconfont icon-geren"></i>-->
+      <!--</span>-->
+      <!--<span>个人登录</span>-->
+    <!--</a>-->
+  <!--</footer>-->
 
 </template>
 <script>

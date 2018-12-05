@@ -1,5 +1,5 @@
 <template>
-<div>know</div>
+<div></div>
 </template>
 
 <script>
